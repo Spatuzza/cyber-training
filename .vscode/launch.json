@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run passcheck",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\week-1-password-checker\\build\\passcheck.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}\\week-1-password-checker",
+      "console": "integratedTerminal",
+      "preLaunchTask": "Build passcheck"
+    }
+  ]
+}

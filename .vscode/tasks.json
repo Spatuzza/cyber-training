@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build passcheck",
+      "type": "shell",
+      "command": "C:\\MinGW\\bin\\gcc.exe",
+      "args": [
+        "-Wall",
+        "-Wextra",
+        "-g3",
+        "week-1-password-checker\\src\\main.c",
+        "week-1-password-checker\\src\\password.c",
+        "-Iweek-1-password-checker\\include",
+        "-o",
+        "week-1-password-checker\\build\\passcheck.exe"
+      ],
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    }
+  ]
+}

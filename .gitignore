@@ -1,0 +1,43 @@
+# =========================
+# Build artifacts (C)
+# =========================
+build/
+src/output/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+
+# =========================
+# Debug / temp files
+# =========================
+*.log
+*.tmp
+*.out
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# PowerShell / temp
+# =========================
+*.stackdump
+
+# =========================
+# Python (por si después sumás tooling)
+# =========================
+__pycache__/
+*.pyc
